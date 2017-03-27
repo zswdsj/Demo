@@ -1,0 +1,51 @@
+
+/***** 解决方案-前端 *****/
+/********** 解决方案 **********/
+.solutionR{ width:1000px; float:right; height:auto; margin-top:80px;}
+.solutionR .solution_box{ width:100%; height:auto; overflow:hidden;margin-bottom:50px; }
+.solutionR .solution_title{ width:1000px; height:100px; background:url(../images/soution/solution_tit.png) no-repeat center 61px;}
+.solutionR .solution_title h3{font-size:40px; height:100px; line-height:64px; float:left; color:#5177bb; font-weight:bold; padding-right:77px; background:url(../images/soution/solution_tit2.png) no-repeat right bottom;}
+.solutionR .solution_content{}
+.solutionR .solution_content .content_1{ margin-top:50px; background:url(../images/soution/solution_bj.png) no-repeat 1px 3px; float:left;}
+.solutionR .solution_content p{ color:#221815; font-size:14px; line-height:26px; font-size:14px; font-family:'宋体'; text-indent:2em; margin-top:12px;}
+.solutionR .solution_content .img{ float:right; margin-left:50px;}
+.solutionR .solution_content  h2{  height:22px; line-height:22px; font-weight:bold; font-size:16px; color:#040000;padding-left:55px;}
+.solutionR .solution_content  h2 strong{ color:#5177bb; font-size:19px; margin-right:18px;}
+.solutionR .solution_content .content_case{ margin-top:30px; float:left;}
+.solutionR .solution_content .content_case h2{padding-left:0px;}
+.solutionR .solution_content .img1{ float:left; margin:20px 40px 10px 0px;}
+.solutionR .solution_content .img2{margin:20px 0px;}
+.solutionR .solution_content .img3{ float:right; margin-top:210px;}
+
+/** "互联网＋"智慧政务解决方案 **/
+.solutionR  .solution_boxR .solution_title h3{ color:#b42d24}
+.solutionR  .solution_boxR .solution_content .content_1{background:url(../images/soution/solution_bj2.png) no-repeat 1px 3px;}
+.solutionR  .solution_boxR .solution_content h2 strong{color:#b42d24}
+
+
+/** 军工安全解决方案 **/
+.solutionR .solution_content .solution_case{ margin-top:40px; float:left;}
+.solutionR .solution_content .solution_case dl{ width:625px; height:155px;background:#efefee; float:left;}
+.solutionR .solution_content .solution_case dl dt{ float:left; margin-right:20px;}
+.solutionR .solution_content .solution_case dl dd{  padding:10px;}
+.solutionR .solution_content .solution_case dl dd h3{ font-size:16px; font-weight:bold; }
+.solutionR .solution_content .solution_case dl dd p{ font-size:12px; line-height:20px;}
+.solutionR .solution_content .solution_case .solution_dl2{ width:345px; height:340px; float:right; }
+.solutionR .solution_content .solution_case .solution_dl2 dd{ float:left; margin-top:10px;}
+.solutionR .solution_content .solution_case .solution_dl3{ margin-top:23px;}
+.solutionR .solution_content .solution_case .solution_dl3 dt{ float:right; margin-right:0px;}
+.solutionR .solution_content .solution_rule{ float:left; margin-top:30px;}
+.solutionR .solution_content .solution_rule p{ text-indent:0em; margin-top:0px; }
+.solutionR .solution_content .content_1 .bot_border{ border-bottom:1px dashed #c4c4c4; padding-bottom:30px;}
+
+
+/**"互联网＋"智慧校园应用解决方案**/
+.solutionR  .solution_zhihui .solution_title h3{ color:#3ca490}
+.solutionR  .solution_zhihui .solution_content .content_1{background:url(../images/soution/solution_bj3.png) no-repeat 1px 3px;}
+.solutionR  .solution_zhihui .solution_content h2 strong{color:#3ca490}
+
+/**"互联网＋"集团企业解决方案**/
+.solutionR  .solution_group .solution_title h3{ color:#d76029}
+.solutionR  .solution_group .solution_content .content_1{background:url(../images/soution/solution_bj4.png) no-repeat 1px 3px;}
+.solutionR  .solution_group .solution_content h2 strong{color:#d76029}
+.solutionR  .solution_group .solution_content h3{ font-size:14px; font-weight:bold; margin-top:20px;}

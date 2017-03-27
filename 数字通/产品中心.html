@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/general.css">
+		<link rel="stylesheet" type="text/css" href="css/index1.css">
+		<link rel="stylesheet" type="text/css" href="css/product.css"/>
+		<script type="text/javascript" src="js/jquery.pack.js"></script>
+		<script type="text/javascript" src="jquery.SuperSlide.js"></script>
+		<script type="text/javascript" src="nav.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			document.title = '智慧政务、智慧教育、智能办公--数字通官网';
+			$(function() {
+				$(window).toTop({});
+				$('.platform-2').hover(function() {
+					$(this).css('z-index', '11111111');
+					$('.platform-2bj').addClass('platform-bounce1');
+					//$('.platform-2box').addClass('animated rollIn').show();
+				}, function() {
+					$(this).css('z-index', '111');
+					$('.platform-2bj').removeClass('platform-bounce1');
+					//$('.platform-2box').removeClass('animated rollIn').hide();
+				});
+				$('.platform-2 img').click(function() {
+					alert(1);
+				})
+				$('.platform-3').hover(function() {
+					$(this).css('z-index', '11111111');
+					$('.platform-3bj').addClass('platform-bounce1');
+					//$('.platform-3box').addClass('animated rotateInDownLeft').show();
+				}, function() {
+					$(this).css('z-index', '111');
+					$('.platform-3bj').removeClass('platform-bounce1');
+					//$('.platform-3box').removeClass('animated rotateInDownLeft').hide();
+				});
+				$('.platform-4').hover(function() {
+					$(this).css('z-index', '11111111');
+					$('.platform-4bj').addClass('platform-bounce1');
+					//$('.platform-4box').addClass('animated lightSpeedIn ').show();
+				}, function() {
+					$(this).css('z-index', '111');
+					$('.platform-4bj').removeClass('platform-bounce1');
+					//$('.platform-4box').removeClass('animated lightSpeedIn').hide();
+				});
+				var bOK = true;
+				$('.platform_top ul li:eq(1)').click(function() {
+					if(bOK) {
+						$('.mtv').slideDown(2000);
+						$('.platform_top ul li:eq(0),.platform_top ul li:eq(2)').css('opacity', '0.3');
+						bOK = false;
+					} else {
+						$('.mtv').slideUp(2000);
+						$('.platform_top ul li:eq(0),.platform_top ul li:eq(2)').css('opacity', '1');
+						bOK = true;
+					}
+
+				});
+
+			});
+		</script>
+		<title>数字通云平台 智慧政务 智慧教育</title>
+	</head>
+	<p id="back-to-top">
+		<a><span></span></a>
+	</p>
+
+	<body class="body-pro">
+		<div class="pro-header">
+			<div class="logo">
+				<a href="../index.php"><img src="img/sztbj/logo-2.png" /></a>
+			</div>
+			<div class="nav-pro">
+				<ul>
+					<li>
+						<a href="首页.html">首 页</a>
+					</li>
+					<li class="on">
+						<a href="产品中心.html">产品专区</a>
+					</li>
+					<li>
+						<a href="解决方案/解决方案.html">解决方案</a>
+					</li>
+					<li>
+						<a href="">用户案例</a>
+					</li>
+					<li>
+						<a href="下载中心.html">下载中心</a>
+					</li>
+					<li>
+						<a href="">合作购买</a>
+					</li>
+				</ul>
+				<div class="right1">
+					<p class="tel_xs">
+						<span class="tel">销售热线：<b>010-51652430</b></span>
+					</p>
+				</div>
+			</div>
+			<div class="platform">
+				<div class="platform-content">
+					<!-- 云平台-->
+					<div class="platform-1" style=" text-align:center;">
+						<a title="点击进入" style="margin-top:160px; color:#FFF; font-size:18px; display:block;" href="platform.php">新品发布会专区</a>
+					</div>
+					<div class="platform-1bj"></div>
+					<!-- 智慧政务 -->
+					<div class="platform-2">
+						<a target="_blank" href="gov.php" title="数字通云平台智慧政务"></a>
+						<!--div class="platform-2box">
+                    <img src="../style/images/product/bj-2.png"  width="31" height="19"/>        数字通云平台智慧政务是面向政府机关，事业单位的专业电子公文系统，同时兼具日常办公、会务、督查等功能。数字通云平台智慧政务是一套经济实惠，高度成熟的电子政务产品，能快速搭建政府机关，事业单位的电子政务智慧云平台
+                    </div-->
+					</div>
+					<div class="platform-2bj"></div>
+					<!-- 智慧校园 -->
+					<div class="platform-3">
+						<a target="_blank" href="edu.php" title="数字通云平台智慧校园"></a>
+						<!--div class="platform-3box">
+                     <img src="../style/images/product/bj-3.png" />   
+        数字通云平台智慧校园是面向学校的一套数字校园系统，系统由办公、教学教务管理、教育资源管理与分享，基于家校互动理念的移动校园APP几大部分构成，系统以独创的”一站三空间一桌面”覆盖学校的所有用户，承载智慧校园的全部功能应用。
+                    </div-->
+					</div>
+					<div class="platform-3bj"></div>
+					<!-- 智慧办公 -->
+					<div class="platform-4">
+						<a target="_blank" href="../office/" title="数字通云平台智慧办公"></a>
+						<!--div class="platform-4box">
+                    <img src="../style/images/product/bj-2.png" /> 
+                     数字通云平台智慧办公是一套协同办公解决方案，由日常办公功能、流程、门户、知识管理、移动办公、开放的接口支持多系统整合。
+                    </div-->
+					</div>
+					<div class="platform-4bj"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="main" class="mian-pro">
+			<div id="product">
+				<!-- 其他产品 -->
+				<div class="qtcp">
+					<h3>其他产品</h3>
+					<ul>
+						<li style="border-right:1px #d8d8d8 solid;">
+							<span><a target="_blank" href="../myoa2013adv/">了解产品</a></span>
+							<img src="img/sztbj/loc-1.png" />
+							<h3>智能协同管理平台</h3>
+							<p>Office Anywhere</p>
+						</li>
+						<li>
+							<span><a target="_blank" href="../bi/">了解产品</a></span>
+							<img src="img/sztbj/loc-1.png" />
+							<h3>商业智能</h3>
+							<p>Business Intelligence</p>
+						</li>
+					</ul>
+				</div>
+
+				<!--- 售前质询 --->
+				<div class="pre_challenge" id="challenge">
+					<div class="doctype_t">
+						<p>数字通销售的Office Anywhere网络智能办公系统的使用已位居全国同类软件产品排行榜第一名，涵盖中央、部委、地方政府，中国500强企业中的130多家，同时在各个行业的龙头企业中也占据极大份额。</p>
+						<p>数字通依托协同办公系列管理软件为基础平台，长期为政府、企事业单位量身定制开发服务及创新的产品扩展性研发，精心打造了智能政务平台、商业智能平台、安全公文系统、协同办公系统国际版、文档一体化系统、超能云平台、电子效能监察平台、数字校园智能办公系统等产品。在为客户实现现代化办公模式的同时，为用户带来全新的工作体验。</p>
+						<p>通过 <strong><a href="../buy/" style="color:#F00;">售前咨询热线</a></strong> 购买以上产品可享受多项优惠!</p>
+					</div>
+					<div class="title">
+						<h3>[ 服务咨询 <span>/ service consulting</span> ]</h3></div>
+					<div class="buy-hotlinebox">
+						<div class="left">
+							<div class="hotline-row-up">
+								<div class="call-nu">
+									<span>销售咨询热线：<b>010-51652430</b></span>
+									<span>数字通售前咨询QQ群：<b>127012027</b></span>
+								</div>
+							</div>
+							<div class="hotline-row-dw">
+								<div class="hotline-rowleft" style=" padding-left:100px;">
+									<span>销售服务时间：周一至周五 8:30-11:40，13:00-17:30</span>
+								</div>
+
+							</div>
+						</div>
+						<div class="left" style="padding-left:45px;">
+							<div class="hotline-row-up" style="background:none;">
+								<div class="call-nu" style="padding-left:0;">
+									<span>售后服务热线：<b>010-56203199</b></span>
+									<span>数字通售后服务QQ群：<b>188733088  </b></span>
+								</div>
+							</div>
+							<div class="hotline-row-dw">
+								<div class="hotline-rowleft" style="width: 402px;">
+									<span>售后服务时间：周一至周五 9:00-11:40，13:00-17:30</span>
+								</div>
+
+							</div>
+						</div>
+						<div class="right">
+							<div class="price" style="padding:0; margin-top:-10px;">
+								<a href="table.php" class="buzz-out" target="_blank"><img src="img/sztbj/icon-1.png" width="150" /></a>
+							</div>
+							<div class="hero">
+								<a style=" padding-top:10px;" href="../dlszq/" class="buzz-out" target="_blank"><img src="img/sztbj/icon-2.png" width="150" /></a>
+							</div>
+							<!--<div class="map">
+                                            <a href="https://www.tongda2000.com/company/showcenter.php" target="_blank"></a>
+                                        </div-->
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<!---------- 尾部 ---------->
+		<div class="clear"></div>
+		<div id="footer">
+			<div class="footer">
+				<div class="footer_dio">
+					<h3>北京数字通软件有限公司</h3>
+					<ul>
+						<li><img src="img/sztbj/footer1.png"><strong>公司地址：</strong>北京市丰台区六里桥西北角奈伦大厦19层1919室</li>
+						<li><img src="img/sztbj/footer2.png"><strong>公司电话：</strong>010-56420974</li>
+						<!--li><img src="style/images/footer3.png"><strong>企业邮箱：</strong></li-->
+						<li style="margin-top:5px;">
+							<p><img src="img/sztbj/dio1.jpg" width="120" height="120"><span>扫描关注新浪微博</span></p>
+							<p><img src="img/sztbj/dio2.jpg" width="120" height="120"><br /><span>扫描关注公众微信</span></p>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_link">
+					<dl>
+						<dt><a href="../about/">关于数字通</a></dt>
+						<dd>
+							<a href="../about/">公司概况</a>
+						</dd>
+						<dd>
+							<a href="../about/about_2.php">发展历程</a>
+						</dd>
+						<dd>
+							<a href="../about/about_3.php">荣誉资质</a>
+						</dd>
+						<dd>
+							<a href="../news/">大事记</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="../product/">产品中心</a></dt>
+						<dd>
+							<a target="_blank" href="../product/gov.php">DAP智慧政务</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="../product/edu.php">DAP智慧校园</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="../office/">DAP智慧办公</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="../myoa2013adv/">智能协同管理平台</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="../gov/">智慧政务</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="../edu/">智慧校园</a>
+						</dd>
+						<dd>
+							<a target="_blank" href="../bi/">商业智能</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="../solution/">解决方案</a></dt>
+						<dd>
+							<a href="../solution/index.php#solution_1">移动互联与传统企业应用解决方案</a>
+						</dd>
+						<dd>
+							<a href="../solution/index.php#solution_2">"互联网＋"云服务平台解决方案</a>
+						</dd>
+						<dd>
+							<a href="../solution/index.php#solution_3">"互联网＋"门户与企业应用解决方案</a>
+						</dd>
+						<dd>
+							<a href="../solution/index.php#solution_4">"互联网＋"智慧政务解决方案</a>
+						</dd>
+						<dd>
+							<a href="../solution/index.php#solution_6">"互联网＋"智慧校园应用解决方案</a>
+						</dd>
+					</dl>
+					<dl style="padding:0 0 0 5px">
+						<dt></dt>
+						<dd>
+							<a href="../solution/index.php#solution_5">军工安全解决方案</a>
+						</dd>
+						<dd>
+							<a href="../solution/index.php#solution_7">"互联网＋"中小企业解决方案</a>
+						</dd>
+						<dd>
+							<a href="../solution/index.php#solution_8">"互联网＋"集团企业解决方案</a>
+						</dd>
+						<dd>
+							<a href="../solution/index.php#solution_9">"互联网＋"应急调度智指挥解决方案</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="footer_link2">
+					<!--span><a href="javascript::"><img src="style/images/link3.jpg"></a></span>
+            <span><a target="_blank" href="http://weibo.com/u/5623513268"><img src="style/images/link1.jpg"></a></span>
+            <span><a href="javascript::"><img src="style/images/link2.jpg"></a></span-->
+					<p>版权所有：北京数字通软件有限公司&nbsp;&nbsp;&nbsp;&nbsp;京ICP备05011713号&nbsp;&nbsp;&nbsp;&nbsp;京公网安备11010802017669号
+						
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
